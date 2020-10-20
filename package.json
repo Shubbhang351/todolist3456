@@ -1,0 +1,33 @@
+{
+  "name": "todolist3456",
+  "version": "1.0.0",
+  "description": "this is my todo list",
+  "main": "index.js",
+  "engines": {
+    "node": "12.19.0",
+    "npm": "6.14.8"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shubhang-verma8/todolist3456.git"
+  },
+  "keywords": [
+    "3456"
+  ],
+  "author": "shubbhang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Shubhang-verma8/todolist3456/issues"
+  },
+  "homepage": "https://github.com/Shubhang-verma8/todolist3456#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "knex": "^0.21.6",
+    "pg": "^8.4.1"
+  }
+}
