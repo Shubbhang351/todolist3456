@@ -1,5 +1,6 @@
 const express = require("express");
 const kenx = require("knex");
+const PORT = process.env.PORT || 5000
 
 const db = kenx({
   client: "pg",
@@ -60,5 +61,5 @@ app.put("/moveTaskDone", (req, res) => {
   }
 });
 
-app.listen(8080, () => console.log("app is running on port 8080"));
+app.listen(PORT, () => console.log("app is running on port 8080"));
 
