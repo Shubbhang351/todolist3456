@@ -5,10 +5,11 @@ const PORT = process.env.PORT || 5000
 const db = kenx({
   client: "pg",
   connection: {
-    host: "127.0.0.1",
-    user: "postgres",
-    password: "chisom05",
-    database: "todo_list"
+    host: "ec2-35-173-94-156.compute-1.amazonaws.com",
+    user: "klnogembilikhe",
+    password: "c642200ab0b9af6beb68275bd157c6f054b380fb6b5cb27e83360f9b66466547",
+    database: "
+df79a5mgc9buav"
   }
 });
 
